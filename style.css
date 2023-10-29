@@ -4,9 +4,7 @@ body {
   background-color: #eee;
   font-family: Source Sans Pro;
   width:100% auto;
-  length: auto;
-  border-top: solid;
-  border-bottom: solid;
+  length: auto; 
   border-width: 1px;
   border-color: black;
   
@@ -24,18 +22,21 @@ nav{
 
 nav ul {
   margin: auto;
-  padding: 0;
+  padding: .7em;
   list-style: none;
+  text-decoration: none;
   text-align: center;
+  color: #eee;
   border-top: solid;
   border-bottom: solid;
   border-width: 1px;
   border-color: #eee;
+  
 }
 
 nav ul li {
   display: inline;
-  list-style-type:none;
+  list-style:none;
   text-decoration: none;
   font-size: 8px;
   font-weight: 300;
@@ -44,19 +45,22 @@ nav ul li {
   padding: 6px;
   text-align: justify;
 }
+ul li{
+  list-style: none;
+  text-decoration: none;
+}
 /* Navigation End */
 
 /* Main Section */
 .newspaper-container{
   background-color: white;
-  width: 75%;
+  width: 700px;
   border-radius: 10px;
   box-shadow: 3px 3px 2px light #ddd;
   margin:auto;
-  border-top: solid;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: black;
+  margin-top: 3em;
+  /* border-width: 1px;
+  border-color: black; */
 }
 
 h1{
@@ -91,9 +95,9 @@ text-align:justify;
 /* Bottom Section Start */
 .more-articles{
   display:inline-block;
-  width: 800px;
+  width: 700px;
   border-top: solid ;
-  border-bottom: solid;
+ 
   border-width: 1px;
   border-color: black;
   }  
