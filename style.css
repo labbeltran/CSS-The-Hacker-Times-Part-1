@@ -6,7 +6,7 @@ body {
   width:100% auto;
   length: auto;
   border-top-style: black;
-  border-bot-style: black;
+  border-bottom-style: black;
   
 }
 
@@ -17,7 +17,7 @@ font-family: Abril Fatface;
 
 .more-articles{
 border-top-style: solid black;
-border-bot-style: solid black;
+border-bottom-style: solid black;
 }
 
 nav ul li {
@@ -31,7 +31,7 @@ nav ul li {
   padding: 6px;
   text-align: justify;
   border-top-style: solid gray;
-  border-bot-style: solid gray;
+  border-bottom-style: solid gray;
 
 }
 .newspaper-container{
@@ -42,7 +42,7 @@ nav ul li {
   box-shadow: 3px 3px 2px light grey;
   margin:auto;
  border-top-style: black;
-  border-bot-style: black;
+  border-bottom-style: black;
 }
 
 h1{
