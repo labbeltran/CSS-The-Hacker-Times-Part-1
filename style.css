@@ -1,71 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
 body {
-    background-color: grey;
-    font-family: Source Sans Pro;
-    width:auto;
-    length: auto;
-    border-top-style: black;
-    border-bot-style: black;
-    
+  background-color: grey;
+  font-family: Source Sans Pro;
+  width:100% auto;
+  length: auto;
+  border-top-style: black;
+  border-bot-style: black;
+  
 }
 
+#date{
+margin: 1em 0em 0em 1em;
+font-family: Abril Fatface;
+}
 
 .more-articles{
-  border-top-style: black;
+border-top-style: solid black;
+border-bot-style: solid black;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type:none;
+  text-decoration: none;
+  font-size: 8px;
+  font-weight: 300;
+  font-family: Roboto Slab, sans-serif;
+  margin-left: 1.7em;
+  padding: 6px;
+  text-align: justify;
+  border-top-style: solid gray;
+  border-bot-style: solid gray;
+
+}
+.newspaper-container{
+  background-color: white;
+  width: 700px;
+  length: 1000px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px light grey;
+  margin:auto;
+ border-top-style: black;
   border-bot-style: black;
 }
 
-.links, ul {
-    display: inline;
-    list-style-type:none;
-    font-size: 8px;
-    font-weight: 300;
-    font-family: Roboto Slab, sans-serif;
-  
-
-}
-
 h1{
-    text-align: center;
-    font-color: black;
-    font-family: Abril Fatface;
-    font-weight: bold;
-}
-
-
-.newspaper-container{
-    background-color: white;
-    width:700px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 2px light grey;
-    margin:auto;
-   border-top-style: black;
-    border-bot-style: black;
+  text-align: center;
+  font-color: black;
+  font-family: Abril Fatface;
+  font-weight: bold;
 }
 h4{
-  font-weight: 800;
+font-weight: 800;
+font-family: Abril Fatface;
 }
 
 h5 {
-  color: red;
+color: red;
+font-family: Abril Fatface;
 }
 main{
-  margin-inline:3% 3%;
-  text-align:justify;
-  
+margin-inline:3% 3%;
+text-align:justify;
+
 }
 
 .more-articles{
-    display:inline-block;
-    width: 800px;
+  display:inline-block;
+  width: 800px;
 }
-  #tabs-space, #how-much{
-    display:inline-block;
-    width: 300px;
-    text-align:justify;
-    margin-inline:3% 3%;
-    
-    
-      
-  }
+#tabs-space, #how-much{
+  display:inline-block;
+  width: 300px;
+  text-align:justify;
+  margin-inline:3% 3%;
+  font-family: Roboto Slab;  
+}
