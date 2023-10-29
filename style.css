@@ -61,10 +61,17 @@ nav ul li {
 
 h1{
   text-align: center;
-  font-color: black;
+  color: black;
   font-family: Abril Fatface;
   font-weight: bold;
 }
+
+h2{
+  color: black;
+  font-family: Abril Fatface;
+  font-weight: bold;
+}
+
 h4{
 font-weight: 800;
 font-family: Abril Fatface;
